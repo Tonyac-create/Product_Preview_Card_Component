@@ -108,7 +108,12 @@ article {
   border-radius: 8px;
 }
 
-header > img {
+picture {
+  display: flex;
+  height: 100%;
+}
+
+.img-mobile {
   width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -119,5 +124,15 @@ section {
 }
 
 footer > button > img {
-    margin-right: 8px;
+  margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+  article {
+    display: flex;
+  }
+
+  img {
+    border-bottom-left-radius: 8px;
+  }
 }

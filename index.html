@@ -16,10 +16,21 @@
     <main>
       <article>
         <header>
-          <img
-            src="/pictures/image-product-mobile.jpg"
-            alt="Bottle of perfume"
-          />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/pictures/image-product-desktop.jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/pictures/image-product-desktop.jpg"
+            />
+            <img
+              src="/pictures/image-product-mobile.jpg"
+              alt="Bottle of perfume"
+              class="img-mobile"
+            />
+          </picture>
         </header>
         <section>
           <h1 class="overline montserrat-medium">PERFUME</h1>
