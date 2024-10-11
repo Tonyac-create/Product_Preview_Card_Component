@@ -11,7 +11,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/FrontEndMentorTonyac/Product_Preview_Card_Component)
+- Live Site URL: [Product Preview Card](https://product-preview-card-component-sigma-red.vercel.app/)
 
 ## My process
 
@@ -46,9 +45,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- LinkedIn - [Angelique Copere](https://www.linkedin.com/in/angelique-copere-dev/)
+- Frontend Mentor - [@Tonyac-create](https://www.frontendmentor.io/profile/Tonyac-create)
