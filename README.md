@@ -24,7 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./pictures/Screenshot%20Mobile%20Product%20Preview%20Card%20Component.png)
+![](./pictures/Screenshot%20Mobile%20Product%20Preview%20Card%20Component.png)  
+
+![](./pictures/Screenshot%20Desktop%20Product%20Preview%20Card%20Component.png)
+
 
 ### Links
 
