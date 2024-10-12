@@ -25,23 +25,12 @@
   font-style: normal;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 0.857em;
+  font-size: 0.875rem;
   background-color: var(--body-bg-color);
-}
-
-h1 {
-  color: var(--darkGrayishBlue);
-  margin: 0;
-  letter-spacing: 5px;
 }
 
 h2 {
@@ -51,7 +40,7 @@ h2 {
 
 .description {
   color: var(--darkGrayishBlue);
-  line-height: 23px;
+  line-height: 1.6;
 }
 
 .price {
@@ -60,7 +49,7 @@ h2 {
   margin-bottom: 14px;
 }
 
-span {
+del {
   color: var(--darkGrayishBlue);
   font-size: 13px;
   text-decoration: line-through;
@@ -93,6 +82,10 @@ button:hover {
 
 .overline {
   font-size: 0.75em;
+  color: var(--darkGrayishBlue);
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: capitalize;
 }
 
 main {
@@ -119,11 +112,11 @@ picture {
   border-top-right-radius: 8px;
 }
 
-section {
+.content {
   padding: 1.5em;
 }
 
-footer > button > img {
+button > img {
   margin-right: 8px;
 }
 
@@ -133,9 +126,9 @@ footer > button > img {
     width: 600px;
   }
 
-  picture > img {
-    width: 250px !important;
+  .img-mobile {
+    width: 250px;
     border-bottom-left-radius: 8px;
-    border-top-right-radius: 0 !important;
+    border-top-right-radius: 0;
   }
 }
