@@ -36,56 +36,7 @@ body {
 h2 {
   color: var(--darkBlue);
   margin: 12px 0;
-}
-
-.description {
-  color: var(--darkGrayishBlue);
-  line-height: 1.6;
-}
-
-.price {
-  display: flex;
-  color: var(--darkCyan);
-  margin-bottom: 14px;
-}
-
-del {
-  color: var(--darkGrayishBlue);
-  font-size: 13px;
-  text-decoration: line-through;
-  margin: auto 0 auto 16px;
-}
-
-button {
-  display: flex;
-  justify-content: center;
-  color: var(--white);
-  background-color: var(--darkCyan);
-  width: 100%;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: var(--hover-aquamarine);
-}
-
-.display {
-  font-size: 2em;
-}
-
-.button-text {
-  font-size: 0.875em;
-  border-radius: 8px;
-  border: none;
-  padding: 16px 0;
-}
-
-.overline {
-  font-size: 0.75em;
-  color: var(--darkGrayishBlue);
-  margin: 0;
-  letter-spacing: 5px;
-  text-transform: capitalize;
+  font-size: 2rem;
 }
 
 main {
@@ -113,10 +64,54 @@ picture {
 }
 
 .content {
-  padding: 1.5em;
+  padding: 24px;
 }
 
-button > img {
+.overline {
+  text-transform: uppercase;
+  color: var(--darkGrayishBlue);
+  margin: 0;
+  letter-spacing: 0.313rem;
+}
+
+.description {
+  color: var(--darkGrayishBlue);
+  line-height: 1.6;
+}
+
+.price {
+  display: flex;
+  color: var(--darkCyan);
+  margin-bottom: 14px;
+}
+
+del {
+  color: var(--darkGrayishBlue);
+  font-size: 0.813rem;
+  text-decoration: line-through;
+  margin: auto 0 auto 16px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  background-color: var(--darkCyan);
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--hover-aquamarine);
+}
+
+.button-text {
+  border-radius: 8px;
+  border: none;
+  padding: 16px 0;
+}
+
+.iconBtn {
   margin-right: 8px;
 }
 
