@@ -1,3 +1,48 @@
+/*
+  1. La largeur total d'un élément incluant le padding et les bordures
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Enlève le margin par défaut
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Espacement entre les lignes
+  4. Améliore le rendu des polices (plus lisse, plus lisible) sur les navigateurs comme Chrome et Safari
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Empêche l'image de se développer en dehors de son conteneur
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Permet à ces éléments de correspondre avec la typographie de l'environnement
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  7. force le passage à la ligne pour un mot trop long
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
 :root {
   --body-bg-color: hsl(30, 38%, 92%);
   --darkCyan: hsl(158, 36%, 37%);
@@ -26,10 +71,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 0.875rem;
   background-color: var(--body-bg-color);
 }
 
@@ -54,11 +95,9 @@ article {
 
 picture {
   display: flex;
-  height: 100%;
 }
 
 .img-mobile {
-  width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -76,7 +115,6 @@ picture {
 
 .description {
   color: var(--darkGrayishBlue);
-  line-height: 1.6;
 }
 
 .price {
@@ -118,11 +156,10 @@ button:hover {
 @media (min-width: 768px) {
   article {
     display: flex;
-    width: 600px;
+    width: 46rem;
   }
 
   .img-mobile {
-    width: 250px;
     border-bottom-left-radius: 8px;
     border-top-right-radius: 0;
   }
