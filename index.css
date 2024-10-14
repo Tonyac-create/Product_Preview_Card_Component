@@ -89,7 +89,7 @@ main {
 
 article {
   background-color: var(--white);
-  width: 90%;
+  max-width: 90%;
   border-radius: 8px;
 }
 
@@ -103,7 +103,9 @@ picture {
 }
 
 .content {
-  padding: 24px;
+  display: grid;
+  gap: 0.875rem;
+  padding: 1.5rem;
 }
 
 .overline {
@@ -155,8 +157,9 @@ button:hover {
 
 @media (min-width: 768px) {
   article {
-    display: flex;
-    width: 46rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
   }
 
   .img-mobile {
